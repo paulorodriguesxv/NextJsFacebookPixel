@@ -11,8 +11,6 @@ export const FacebookProvider = ({facebookPixelId, children}) => {
   const [reactPixel, setReactPixel] = useState()
   const [pixelId, setPixelId] = useState()
 
-  let fb
-
   const isFacebbokPixelIdIsPresent = () => {
 
     if (!facebookPixelId){
@@ -26,6 +24,8 @@ export const FacebookProvider = ({facebookPixelId, children}) => {
     if (!isFacebbokPixelIdIsPresent()) {
       return
     }
+
+    let fb
 
     import('react-facebook-pixel')
     .then((module) => (fb = module.default))
