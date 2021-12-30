@@ -5,7 +5,7 @@ It was built using [Next.js](https://nextjs.org/) project bootstrapped with [`cr
 
 ## Getting Started
 
-** You MUST HAVE to know how Facebook Pixel works and how to test a pixel event on facebook business dashboard, because it`s out of the scope explaing the concepts behing that **
+** You MUST HAVE to know how Facebook Pixel works and how to test a pixel event on facebook business dashboard, because it`s out of the scope explaining the concepts behing that **
 
 
 First, run the development server:
