@@ -10,7 +10,7 @@ It was built using [Next.js](https://nextjs.org/) project bootstrapped with [`cr
 
 First, run the development server:
 
-- copy the file .env.template to .env.local and fill with pixel id code
+- copy the file .env.template to .env.local and set NEXT_PUBLIC_FACEBOOK_PIXEL_ID key with your pixel id code
 
 ```bash
 npm run dev
