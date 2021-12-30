@@ -5,12 +5,12 @@ It was built using [Next.js](https://nextjs.org/) project bootstrapped with [`cr
 
 ## Getting Started
 
-** You MUST HAVE to know how Facebook Pixel works and how to test a pixel event on facebook business dashboard, because it`s out of the scope explaing the concepts behing this **
+** You MUST HAVE to know how Facebook Pixel works and how to test a pixel event on facebook business dashboard, because it`s out of the scope explaining the concepts behing that **
 
 
 First, run the development server:
 
-- copy the file .env.template to .env.local and fill with pixel id code
+- copy the file .env.template to .env.local and set NEXT_PUBLIC_FACEBOOK_PIXEL_ID key with your pixel id code
 
 ```bash
 npm run dev
