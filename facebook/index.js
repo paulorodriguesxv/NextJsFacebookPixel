@@ -11,7 +11,7 @@ export const FacebookProvider = ({facebookPixelId, children}) => {
   const [reactPixel, setReactPixel] = useState()
   const [pixelId, setPixelId] = useState()
 
-  const isFacebbokPixelIdIsPresent = () => {
+  const isFacebookPixelIdPresent = () => {
 
     if (!facebookPixelId){
       console.log('No facebook Pixel Id has been defined. Please set facebookPixelId prop on FacebookProvider')
@@ -21,7 +21,7 @@ export const FacebookProvider = ({facebookPixelId, children}) => {
   }
 
   useEffect(() => {
-    if (!isFacebbokPixelIdIsPresent()) {
+    if (!isFacebookPixelIdPresent()) {
       return
     }
 
@@ -45,7 +45,7 @@ export const FacebookProvider = ({facebookPixelId, children}) => {
   },[])
 
   const trackEventHandle = (event, data) => {
-    if (!isFacebbokPixelIdIsPresent()) {
+    if (!isFacebookPixelIdPresent()) {
       return
     }
 
