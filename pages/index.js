@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { useFacebook } from '../facebook'
+import useFacebook from '../facebook'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {

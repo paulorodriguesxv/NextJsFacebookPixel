@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
-import { FacebookProvider, useFacebook } from '../facebook'
+import useFacebook, { FacebookProvider } from '../facebook'
 
 const FACEBOOK_PIXEL_ID = process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID
 

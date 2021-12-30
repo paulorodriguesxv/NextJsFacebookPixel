@@ -65,8 +65,10 @@ export const FacebookProvider = ({facebookPixelId, children}) => {
   );  
 }
 
-export function useFacebook() {
+const useFacebook = () => {
   const context = useContext(FacebookContext);
 
   return context;
 }
+
+export default useFacebook
